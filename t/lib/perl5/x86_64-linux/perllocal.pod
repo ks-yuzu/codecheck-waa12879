@@ -658,3 +658,69 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Sat Mar 10 23:48:52 2018: C<Module> L<JSON::XS|JSON::XS>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuzu/works/job-hunt/works-applications/t/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.04>
+
+=item *
+
+C<EXE_FILES: bin/json_xs>
+
+=back
+
+=head2 Sat Mar 10 23:50:15 2018: C<Module> L<JSON::XS|JSON::XS>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuzu/works/job-hunt/works-applications/t/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.04>
+
+=item *
+
+C<EXE_FILES: bin/json_xs>
+
+=back
+
+=head2 Sat Mar 10 23:50:54 2018: C<Module> L<JSON|JSON>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuzu/works/job-hunt/works-applications/t/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.97001>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

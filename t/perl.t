@@ -5,10 +5,8 @@ use Test2::Plugin::UTF8;
 use FindBin;
 use lib "$FindBin::Bin/lib/perl5";
 
-use JSON::XS;
+use JSON;
 use Path::Tiny;
-
-use DDP;
 
 use constant EXEC => 'perl perl/App.pl';
 
@@ -40,7 +38,7 @@ sub test {
       if ($input eq '') { $input = q/''/ }
       my $command = EXEC . ' ' . $problem . ' ' . $input . ' 2> /dev/null';
 
-      say STDERR $command;
+      # say STDERR $command;
       my $output = qx|$command|;
       my $rc = $?;
       $rc = $rc >> 8 unless ($rc == -1);
