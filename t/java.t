@@ -42,7 +42,7 @@ sub test {
       if ($input eq '') { $input = q/''/ }
       my $command = EXEC . ' ' . $problem . ' ' . $input . ' 2> /dev/null';
 
-      say STDERR $command;
+      # say STDERR $command;
       my $output = qx|$command|;
       my $rc = $?;
       $rc = $rc >> 8 unless ($rc == -1);
