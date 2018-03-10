@@ -1,0 +1,47 @@
+[
+  {
+    "title": "should fail when an invalid input string is given",
+    "input": "0123456789-",
+    "output": [],
+    "code": 1
+  },
+  {
+    "title": "should return an empty output when empty input string is given",
+    "input": "",
+    "output": [],
+    "code": 0
+  },
+  {
+    "title": "should return a correct substring with one character when one character is given",
+    "input": "1",
+    "output": [
+      "1"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a whole input string when a succeeding string is given",
+    "input": "123",
+    "output": [
+      "123"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a correct substring when a longest succeeding string is placed in the middle",
+    "input": "2312323",
+    "output": [
+      "123"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings when the input consists of two equivalent substrings",
+    "input": "123123",
+    "output": [
+      "123",
+      "123"
+    ],
+    "code": 0
+  }
+]

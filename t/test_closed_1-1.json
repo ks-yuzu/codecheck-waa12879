@@ -1,0 +1,91 @@
+[
+  {
+    "title": "should return a whole input string when a succeeding (by more than one) string is given",
+    "input": "135",
+    "output": [
+      "135"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a correct substring when a longest succeeding string is placed in the top",
+    "input": "1232323",
+    "output": [
+      "123"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a correct substring when a longest succeeding string is placed in the bottom",
+    "input": "2323123",
+    "output": [
+      "123"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a correct substring when the decreasing part is longer than the succeeding part",
+    "input": "45456432121",
+    "output": [
+      "456"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings in the correct order when the input contains two equally longest substrings",
+    "input": "45456312312",
+    "output": [
+      "456",
+      "123"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two characters when a character is repeated twice",
+    "input": "11",
+    "output": [
+      "1",
+      "1"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings when the input contains two equivalent substrings",
+    "input": "12123212312",
+    "output": [
+      "123",
+      "123"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return splitted characters when the input is a strictly decreasing string",
+    "input": "321",
+    "output": [
+      "3",
+      "2",
+      "1"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return splitted characters when the input is a weekly decreasing string",
+    "input": "3221",
+    "output": [
+      "3",
+      "2",
+      "2",
+      "1"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings when the input is a weekly increasing string",
+    "input": "1223",
+    "output": [
+      "12",
+      "23"
+    ],
+    "code": 0
+  }
+]

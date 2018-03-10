@@ -1,0 +1,56 @@
+[
+  {
+    "title": "should fail when an invalid input string is given",
+    "input": "0123456789",
+    "output": [],
+    "code": 1
+  },
+  {
+    "title": "should return an empty output when empty input string is given",
+    "input": "",
+    "output": [],
+    "code": 0
+  },
+  {
+    "title": "should return one substring with one character when one character is given",
+    "input": "1",
+    "output": [
+      "1"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a whole input string when only one character is repeated in the input",
+    "input": "1111",
+    "output": [
+      "1111"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings when 0 and 1 are repeated once for each (increasing order)",
+    "input": "01",
+    "output": [
+      "0",
+      "1"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings when 0 and 1 are repeated once for each (decreasing order)",
+    "input": "10",
+    "output": [
+      "1",
+      "0"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a correct substring when a longest substring is placed in the middle",
+    "input": "11100",
+    "output": [
+      "111"
+    ],
+    "code": 0
+  }
+]

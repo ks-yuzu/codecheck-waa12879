@@ -1,0 +1,45 @@
+[
+  {
+    "title": "should return substrings when capital and small letters are mixed",
+    "input": "aAAaaA",
+    "output": [
+      "AA",
+      "aa"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a correct substring when a longest succeeding string is placed in the top",
+    "input": "BBBccDD",
+    "output": [
+      "BBB"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a correct substring when a longest succeeding string is placed in the bottom",
+    "input": "aaBBccc",
+    "output": [
+      "ccc"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings when the input contains two equivalent substrings",
+    "input": "aaBBBccBBBaa",
+    "output": [
+      "BBB",
+      "BBB"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings in the correct order when the input contains two equally longest substrings",
+    "input": "aaBBBccDDDee",
+    "output": [
+      "BBB",
+      "DDD"
+    ],
+    "code": 0
+  }
+]

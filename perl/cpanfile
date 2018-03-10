@@ -1,0 +1,16 @@
+requires 'perl', '5.008001';
+
+requires 'List::MoreUtils';
+
+on 'test' => sub {
+  requires 'Test2::V0';
+  requires 'Test2::Plugin::SourceDiag';
+  requires 'Unicode::GCString';
+
+  requires 'Path::Tiny';
+  requires 'JSON::XS';
+};
+
+on 'develop' => sub {
+  requires 'DDP';
+};

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "should return a correct substring when a longest substring is placed in top",
+    "input": "11100",
+    "output": [
+      "111"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return a correct substring when a longest substring is placed in the bottom",
+    "input": "00111",
+    "output": [
+      "111"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings when the input contains two longest substrings (simple pattern)",
+    "input": "000111",
+    "output": [
+      "000",
+      "111"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return only a substring if the input contains only one longest substring",
+    "input": "0110001111011",
+    "output": [
+      "1111"
+    ],
+    "code": 0
+  },
+  {
+    "title": "should return two substrings when the input contains two longest substrings (complexed pattern)",
+    "input": "011000111101000011",
+    "output": [
+      "1111",
+      "0000"
+    ],
+    "code": 0
+  }
+]
